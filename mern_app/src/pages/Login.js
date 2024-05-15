@@ -7,6 +7,7 @@ import SummaryApi from '../common';
 import { toast } from 'react-toastify';
 import Context from '../context';
 import VideoBG from '../assets/Login.mp4'
+import axios from 'axios
 const Login = () => {
     const [showPassword,setShowPassword] = useState(false)
     const [data,setData] = useState({
@@ -29,6 +30,7 @@ const Login = () => {
 
     const handlesubmit = async(e)=>{
      e.preventDefault();
+        axios.post('https://get-it-on-the-go-3o1f.vercel.app/login',{SummaryApi.signIn.url}).then(result=>console.log(result)).catch(err=>console.log(err)
 
 
      const dataResponse = await fetch(SummaryApi.signIn.url,{
