@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import Context from '../context';
 import VideoBG from '../assets/Login.mp4';
 
-const API_URL = 'https://get-it-on-the-go-3o1f.vercel.app';
+const API_URL = 'https://get-it-on-the-go-3o1f.vercel.app/home';
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
