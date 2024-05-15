@@ -11,7 +11,7 @@ import { useDispatch } from 'react-redux';
 import { setUserDetails } from './store/userSlice';
 import axios from 'axios';
 
-const apiUrl = 'https://get-it-on-the-go-3o1f.vercel.app/'; // Add Vercel API link
+const apiUrl = 'https://get-it-on-the-go-3o1f.vercel.app/login'; // Add Vercel API link
 
 const fetchUserDetails = async () => {
   try {
