@@ -9,6 +9,7 @@ const path = require('path')
 const app = express();
 app.use(cors({
   origin : process.env.FORNTEND_URL,
+  method : ['POST','GET'],
   credentials : true
 }));
 app.use(express.json());
