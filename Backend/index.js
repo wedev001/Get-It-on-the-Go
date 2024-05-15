@@ -8,7 +8,7 @@ const path = require('path')
 
 const app = express();
 app.use(cors({
-  origin : [https://get-it-on-the-go-a1ad.vercel.app/],
+  origin : [https://get-it-on-the-go-a1ad.vercel.app],
   credentials : true
 }));
 app.use(express.json());
