@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-slate-50
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Video{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  
+}
+video{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+#login{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+#sign-Up{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color:white;
+}
+
+.Profile{
+  border: solid black 2px;
+ border-radius: 15px;
+}
